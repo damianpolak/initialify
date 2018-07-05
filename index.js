@@ -12,6 +12,13 @@
 module.exports = initialify = (str, dot) => {
   'use strict';
 
+  if(str === undefined ||
+     str === null ||
+     str === '' ||
+     typeof(str) !== 'string') {
+       throw new TypeError('Expected correct string value');
+  }
+
   let e = str.split(' ');
   let r = '';
 
