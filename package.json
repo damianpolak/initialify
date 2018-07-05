@@ -1,0 +1,37 @@
+{
+  "name": "initialify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "^1.0.0-beta.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damianpolak/initialify.git"
+  },
+  "keywords": [
+    "initials",
+    "initial",
+    "shortcuts",
+    "short",
+    "names",
+    "name",
+    "dot",
+    "between",
+    "word",
+    "initialify"
+  ],
+  "author": {
+    "name": "Damian Polak",
+    "email": "deeppurple044@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/damianpolak/initialify/issues"
+  },
+  "homepage": "https://github.com/damianpolak/initialify#readme"
+}
